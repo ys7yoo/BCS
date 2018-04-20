@@ -15,6 +15,7 @@ When you are confident that this block would work, (only after that) you can wri
 ### 1.2 Functions and classes must have block comments
 
 Without carefully written comments, functions or classes are useless.
+Block comments with detail information must always come at the beginning.
 
 An example: 
 ```
@@ -31,6 +32,7 @@ def detectFaceUsingCNN:
         rect - list of rects containing faces, format: (x, y, w, h) 
         ellipse - list of ellipses containing faces, format: (x, y, a, b) 
         pose - 3D pose of the detected face
+    """
 ```
 
 
