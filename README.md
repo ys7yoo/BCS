@@ -10,7 +10,9 @@ If someone else may want to use your code, it must be readabile.
 ### 1.1 Comment, comment, and more comment
 
 Before writng any block of code, wrie comments first. 
-Check logics based on the commnents. See that you're not missing any step of your algorithm. Take time to consider different structures, data structures, or algorithm itself.
+Check logics based on the commnents. See that you're not missing any step of your algorithm. 
+
+Take time to consider alternative steps, data structures, or algorithms.
 
 When you are confident that this block would work, (only after that) you can write up actual code (C++, Python, Matlab, R, etc.).
 
