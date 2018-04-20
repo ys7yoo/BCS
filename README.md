@@ -3,7 +3,9 @@
 ## 1. Clarity over efficiency
 We have more interest in **algorithm** than **implementation**. 
 Of course, writing an efficient code is a very import skill.
-But, we need more **flexible** code that are to be **shared**. So, first priority is **readibility**!
+But, we need more **flexible** code with which we can play with data and develop ideas.
+So, first priority is **readibility**. 
+If someone else may want to use your code, it must be readabile. 
 
 ### 1.1 Comment, comment, and more comment
 
