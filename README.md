@@ -44,7 +44,7 @@ def detectFaceUsingCNN(img, model, scale=1):
 
 ### 2.1 Function names start with lower case letters while class names start with capital letters.
 
-### 2.2 Function name should be “active”
+### 2.2 Function names should be “active.”
 A function performs a very specific action. 
 Use the **verb** that best describes the core action of the function. 
 
