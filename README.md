@@ -23,7 +23,7 @@ Block comments with detail information must always come at the beginning.
 
 An example: 
 ```
-def detectFaceUsingCNN(img, model, scale): 
+def detectFaceUsingCNN(img, model, scale=1): 
     """
     multi-view face detector using CNN.
     (SOME MORE DETAILS).
@@ -31,11 +31,11 @@ def detectFaceUsingCNN(img, model, scale):
     input: 
         img - input image
         model - CNN model
-        scale - scale parameter
+        scale - scale parameter (default = 1)
     output:
         rect - list of rects containing faces, format: (x, y, w, h) 
         ellipse - list of ellipses containing faces, format: (x, y, a, b) 
-        pose - 3D pose of the detected face
+        pose - 3D pose of the detected face, format: (yaw, roll, pitch)
     """
 ```
 
