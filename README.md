@@ -23,7 +23,7 @@ Block comments with detail information must always come at the beginning.
 
 An example: 
 ```
-def detectFaceUsingCNN: 
+def detectFaceUsingCNN(img, model, scale): 
     """
     multi-view face detector using CNN.
     (SOME MORE DETAILS).
